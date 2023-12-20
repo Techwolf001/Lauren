@@ -52,8 +52,8 @@ const Navbar = () => {
             </div>
           </nav>
         </div>
-        <div className="flex h-24 shadow-md top-6 z-50 bg-[#f9f9f9] w-full">
-          <nav className="flex justify-between px-[10px] py-[15px]">
+        <div className="flex h-24 sticky shadow-md top-6 z-50 bg-[#f9f9f9] w-full">
+          <nav className="flex justify-between px-[10px] pl-6 relative top-4 py-[15px]">
             <ul className="flex">
               <li className="px-2">
                 <Link to="/" className="font-bold text-[14px] font-[Syne] ">
@@ -104,15 +104,15 @@ const Navbar = () => {
               <img src="/logo.png" className="w-[250px]" alt="Logo Image" />
             </Link>
           </div>
-          <div className=" mt-5 mr-7 mb-5 ml-0 bg-[#0b2545] w-60 lg:px-11 x px-6 py-4 hover:bg-[#343434]">
+          <div className=" mt-5 mr-7 relative right-12 mb-5 ml-0 bg-[#0b2545] w-48 lg:px-11 px-6 py-4 hover:bg-[#343434]">
             <Link
               to="/contact"
-              className="text-white font-bold font-[Syne] text-sm max-[1303px]:text-xs tracking-widest"
+              className="text-white text-center font-bold font-[Syne] text-sm max-[1303px]:text-xs tracking-widest"
             >
               GET A QUOTE
             </Link>
           </div>
-          <div className="flex">
+          <div className="flex relative right-2">
             <div>
               <IoCallOutline className="text-6xl my-3 text-[#0b2545]" />
             </div>
