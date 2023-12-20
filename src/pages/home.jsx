@@ -4,10 +4,10 @@ import HomeCarousel from "../components/HomeCarousel"
 const Home = () => {
   return (
     <div className=" overflow-hidden block  ">
-      <div className="container">
+      <div >
         <HomeCarousel />
       </div>
-      <div className="container bg-white relative px-4 mx-auto ">
+      <div className="bg-white relative px-4 mx-auto ">
           <div className=" flex pl-10 relative left-20 bg-white shadow-xl border-b rounded-xl pb-40 mb-8">
             <div className="basis-2/6">
               <img src="/womanImg.png" alt="Woman Image" className="max-w-full h-auto"/>
@@ -104,17 +104,21 @@ const Home = () => {
         </div>
       
     </div>
-    <div className="max-w-[1200px]">
-      <p className="font-[700] leading-[3px] text-[#0b2545] text-center pb-16 uppercase ">
-          15+ years of experience in Gemology & Jewelery Appraisal 
-      </p>
-      <h2 className="text-[80px] p-[15px 0 25px] text-center leading-[1.125] font-[600]">Get Expert Gems<br/> and Jewellery<br/> Appraisal</h2>
-    </div>
-    <div className=" relative right-0 left-[29rem] my-9 mb-32 bg-[#0b2545] w-64 lg:px-11 x px-6 py-4 hover:bg-[#343434]">
-            <Link to="/contact" className="text-white uppercase font-bold font-[Syne] text-sm max-[1303px]:text-xs tracking-widest">
+    <div>
+      <div className="container gap-x-0 flex flex-wrap -mx-4">
+        <div className="max-w-[1200px]">
+          <p className="font-[700] leading-[3px] text-[#0b2545] text-center pb-16 uppercase ">
+              15+ years of experience in Gemology & Jewelery Appraisal 
+          </p>
+          <h2 className="text-[80px] p-[15px 0 25px] text-center leading-[1.125] font-[600]">Get Expert Gems<br/> and Jewellery<br/> Appraisal</h2>
+        </div>
+        <div className=" relative right-0 left-[29rem] my-9 mb-32 bg-[#0b2545] w-64 lg:px-11 x px-6 py-4 hover:bg-[#343434]">
+          <Link to="/contact" className="text-white uppercase font-bold font-[Syne] text-sm max-[1303px]:text-xs tracking-widest">
               book appraisal
-            </Link>
-          </div>
+          </Link>
+        </div>
+      </div>
+    </div>
     </div>
   )
 }

@@ -6,7 +6,7 @@ const Contact = () => {
           <div className="text left-0 right-0 top-[50px] text-center translate-x-0 stroke-white opacity-10 -z-10 text-[300px] absolute font-bold fill-transparent stroke-1">
             Contact
           </div>
-          <div className="w-full px-4 mx-auto max-w-[1200px] container">
+          <div className="w-full px-4 mx-auto max-w-[1200px]  ">
             <h1 className="text-white text-[120px] text-center mt-0  mb-2 font-semibold font-[Syne] leading-[0.833]">
               Contact Us
             </h1>

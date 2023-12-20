@@ -8,7 +8,7 @@ import MobileNavbar from "./MobileNavbar";
 const Navbar = () => {
   return (
     <div>
-      <div className="max-xl:hidden">
+      <div className="hidden com:block tv:block cin:block">
         <div className=" max-xl:hidden">
           <nav className="flex justify-between border px-[100px] py-[3px]">
             <div className="flex">
@@ -77,8 +77,8 @@ const Navbar = () => {
               <img src="/logo.png" className="w-[250px]" alt="Logo Image" />
             </Link>
           </div>
-          <div className=" mt-5 mr-7 mb-5 ml-0 bg-[#0b2545] w-60 lg:px-11 x px-6 py-4 hover:bg-[#343434]">
-            <Link to="/contact" className="text-white font-bold font-[Syne] text-sm max-[1303px]:text-xs tracking-widest">
+          <div className=" mt-5 mr-7 mb-5 ml-0 bg-[#0b2545] w-60 com:px-11 mcom:px-11 tv:px-11 cin:px-11 px-3 py-4 hover:bg-[#343434]">
+            <Link to="/contact" className="text-white font-bold font-[Syne] text-sm com:text-xs mcom:text-xs tab:text-xs sm:text-xs  tracking-widest">
               GET A QUOTE
             </Link>
           </div>
