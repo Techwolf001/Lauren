@@ -10,11 +10,11 @@ const Navbar = () => {
     <div>
       <div className="hidden com:block tv:block cin:block">
         <div className=" max-xl:hidden">
-          <nav className="flex justify-between border px-[80px] py-[3px]">
+          <nav className="flex justify-between border px-[10px] bg-[#f9f9f9]">
             <div className="flex">
               <ul className="flex">
                 <li>
-                  <span className="flex m-4">
+                  <span className="flex mt-1 ml-4">
                     <MdMailOutline className="m-[4px]" />
                     <a
                       href="mailto:fawasrufai09@gmail.com "
@@ -25,7 +25,7 @@ const Navbar = () => {
                   </span>
                 </li>
                 <li>
-                  <span className="flex m-4 ">
+                  <span className="flex mt-1 ml-6">
                     <BsTelephone className="m-[4px]" />
                     <a href="tel:+2347044637201 " className="font-[Syne]">
                       +2347044637201
@@ -52,15 +52,15 @@ const Navbar = () => {
             </div>
           </nav>
         </div>
-        <div className="flex h-24 shadow-md  top-0">
-          <nav className="flex justify-between  px-[70px] py-[35px]">
+        <div className="flex h-24 shadow-md top-6 z-50 bg-[#f9f9f9] w-full">
+          <nav className="flex justify-between px-[10px] py-[15px]">
             <ul className="flex">
-              <li className="px-5">
+              <li className="px-2">
                 <Link to="/" className="font-bold text-[14px] font-[Syne] ">
                   HOME.
                 </Link>
               </li>
-              <li className="px-5">
+              <li className="px-2">
                 <Link
                   to="/about"
                   className="font-bold text-[14px] font-[Syne] "
@@ -68,7 +68,7 @@ const Navbar = () => {
                   ABOUT US.
                 </Link>
               </li>
-              <li className="px-5">
+              <li className="px-2">
                 <Link
                   to="/services"
                   className="font-bold text-[14px] font-[Syne] "
@@ -76,7 +76,7 @@ const Navbar = () => {
                   OUR SERVICES.
                 </Link>
               </li>
-              <li className="px-5">
+              <li className="px-2">
                 <Link
                   to="/appraisal"
                   className="font-bold text-[14px] font-[Syne] "
@@ -84,12 +84,12 @@ const Navbar = () => {
                   APPRAISAL.
                 </Link>
               </li>
-              <li className="px-5">
+              <li className="px-2">
                 <Link to="/faq" className="font-bold text-[14px] font-[Syne] ">
                   FAQS.
                 </Link>
               </li>
-              <li className="px-5">
+              <li className="px-2">
                 <Link
                   to="/contact"
                   className="font-bold text-[14px] font-[Syne] "
@@ -99,7 +99,7 @@ const Navbar = () => {
               </li>
             </ul>
           </nav>
-          <div className="absolute w-[305px] top-0 left-[38%] z-10 right-0 mx-0 my-auto inline-block">
+          <div className="relative w-[305px] -top-2 z-10 right-0 mx-0 my-auto inline-block">
             <Link to="/">
               <img src="/logo.png" className="w-[250px]" alt="Logo Image" />
             </Link>
