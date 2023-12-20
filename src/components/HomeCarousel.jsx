@@ -18,7 +18,7 @@ export default function HomeCarousel() {
   return (
     <>
       <Swiper slidesPerView={1}
-        spaceBetween={30}
+        spaceBetween={0}
         loop={true}
         effect={'fade'}
         autoplay={{
@@ -30,13 +30,13 @@ export default function HomeCarousel() {
           clickable: true,
         }}
         navigation={true}
-        modules={[Pagination, Navigation, EffectFade, Autoplay]} className="mySwiper w-full h-auto ">
+        modules={[Pagination, Navigation, EffectFade, Autoplay]} className=" w-full h-auto ">
         <SwiperSlide>
             <div className="block bg-[url('/Pre-Purchase-and-Quality-Verification.png')] relative bg-cover bg-no-repeat bg-center z-10 overflow-visible px-0 ">
-                <div className='container mx-40 px-4'>
+                <div className='container com:mx-40 tv:mx-40 cin:mx-40 mx-20 com:px-4 tv:px-4 cin:px-4 px-2'>
                     <div className='pt-[215px] pb-[180px] px-0 max-w-[580px]'>
                         <div>
-                            <h1 className='text-[80px] text-white py-5 px-0 font-semibold opacity-100 translate-y-0 transition-all ease duration-[1500ms] delay-1000 '>
+                            <h1 className='com:text-[80px] tv:text-[80px] cin:text-[80px] text-[60px] text-white com:py-5 tv:py-5 py-3  px-0 font-semibold opacity-100 translate-y-0 transition-all ease-in duration-[1500ms] delay-1000 '>
                                 Expert Gemology and Jewelry Appraisal
                             </h1>
                         </div>
@@ -51,10 +51,10 @@ export default function HomeCarousel() {
         </SwiperSlide>
         <SwiperSlide>
         <div className="block bg-[url('/Pre-Purchase-and-Quality-Verification.png')] relative bg-cover bg-no-repeat bg-center z-10 overflow-visible px-0 ">
-                <div className='container mx-40 px-4'>
+                <div className='container com:mx-40 tv:mx-40 cin:mx-40 mx-20 com:px-4 tv:px-4 cin:px-4 px-2'>
                     <div className='pt-[215px] pb-[180px] px-0 max-w-[580px]'>
                         <div>
-                            <h1 className='text-[80px] text-white py-5 px-0 font-semibold opacity-100 translate-y-0 transition-all ease duration-[1500ms] delay-1000 '>
+                            <h1 className='com:text-[80px] tv:text-[80px] cin:text-[80px] text-[60px] text-white com:py-5 tv:py-5 py-3  px-0 font-semibold opacity-100 translate-y-0 transition-all ease-in duration-[1500ms] delay-1000 '>
                                 Professional Gems and Jewelry Appraisal
                             </h1>
                         </div>

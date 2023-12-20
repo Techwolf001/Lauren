@@ -8,9 +8,9 @@ import MobileNavbar from "./MobileNavbar";
 const Navbar = () => {
   return (
     <div>
-      <div className="max-xl:hidden">
+      <div className="hidden com:block tv:block cin:block">
         <div className=" max-xl:hidden">
-          <nav className="flex justify-between border px-[100px] py-[3px]">
+          <nav className="flex justify-between border px-[80px] py-[3px]">
             <div className="flex">
               <ul className="flex">
                 <li>
@@ -53,7 +53,7 @@ const Navbar = () => {
           </nav>
         </div>
         <div className="flex h-24 shadow-md  top-0">
-          <nav className="flex justify-between  px-[100px] py-[35px]">
+          <nav className="flex justify-between  px-[70px] py-[35px]">
             <ul className="flex">
               <li className="px-5">
                 <Link to="/" className="font-bold text-[14px] font-[Syne] ">
