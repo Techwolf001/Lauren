@@ -10,26 +10,29 @@ const Navbar = () => {
     <div>
       <div className="hidden com:block tv:block cin:block">
         <div className=" max-xl:hidden">
-          <nav className="flex justify-between border px-[80px] py-[3px]">
+          <nav className="flex justify-between border px-[10px] bg-[#f9f9f9]">
             <div className="flex">
               <ul className="flex">
                 <li>
-                  <span className="flex m-4">
-                    <MdMailOutline className="m-[4px]"/>
-                    <a href="mailto:fawasrufai09@gmail.com " className="font-[Syne]">
-                        fawasrufai09@gmail.com
+                  <span className="flex mt-1 ml-4">
+                    <MdMailOutline className="m-[4px]" />
+                    <a
+                      href="mailto:fawasrufai09@gmail.com "
+                      className="font-[Syne]"
+                    >
+                      fawasrufai09@gmail.com
                     </a>
-                </span>
+                  </span>
                 </li>
                 <li>
-                  <span className="flex m-4 ">
-                    <BsTelephone  className="m-[4px]"/>
+                  <span className="flex mt-1 ml-6">
+                    <BsTelephone className="m-[4px]" />
                     <a href="tel:+2347044637201 " className="font-[Syne]">
-                        +2347044637201
+                      +2347044637201
                     </a>
-                </span>
+                  </span>
                 </li>
-              </ul>      
+              </ul>
             </div>
             <div className="flex">
               <ul className="flex cursor-pointer">
@@ -37,69 +40,94 @@ const Navbar = () => {
                   <FaFacebookF className="m-2 opacity-50 hover:opacity-100" />
                 </li>
                 <li>
-                  <BsTwitterX className="m-2 opacity-50 hover:opacity-100"/>
+                  <BsTwitterX className="m-2 opacity-50 hover:opacity-100" />
                 </li>
                 <li>
-                  <FaLinkedin className="m-2 opacity-50 hover:opacity-100"/>
+                  <FaLinkedin className="m-2 opacity-50 hover:opacity-100" />
                 </li>
                 <li>
-                  <FaWhatsapp className="m-2 opacity-50 hover:opacity-100"/>
+                  <FaWhatsapp className="m-2 opacity-50 hover:opacity-100" />
                 </li>
               </ul>
             </div>
           </nav>
         </div>
-        <div className="flex h-24 shadow-md  top-0">
-          <nav className="flex justify-between  px-[70px] py-[35px]">
+        <div className="flex h-24 shadow-md top-6 z-50 bg-[#f9f9f9] w-full">
+          <nav className="flex justify-between px-[10px] py-[15px]">
             <ul className="flex">
-              <li className="tv:px-5 cin:px-5 px-3">
-                <Link to="/" className="font-semibold tv:text-[14px] cin:text-[14px] text-[12px] font-[Syne] ">HOME.</Link>
+              <li className="px-2">
+                <Link to="/" className="font-bold text-[14px] font-[Syne] ">
+                  HOME.
+                </Link>
               </li>
-              <li className="tv:px-5 cin:px-5 px-3">
-                <Link to="/about" className="font-semibold tv:text-[14px] cin:text-[14px] text-[12px] font-[Syne] ">ABOUT US.</Link>
+              <li className="px-2">
+                <Link
+                  to="/about"
+                  className="font-bold text-[14px] font-[Syne] "
+                >
+                  ABOUT US.
+                </Link>
               </li>
-              <li className="tv:px-5 cin:px-5 px-3">
-                <Link to="/services" className="font-semibold tv:text-[14px] cin:text-[14px] text-[12px] font-[Syne] ">OUR SERVICES.</Link>
+              <li className="px-2">
+                <Link
+                  to="/services"
+                  className="font-bold text-[14px] font-[Syne] "
+                >
+                  OUR SERVICES.
+                </Link>
               </li>
-              <li className="tv:px-5 cin:px-5 px-3">
-                <Link to="/appraisal" className="font-semibold tv:text-[14px] cin:text-[14px] text-[12px] font-[Syne] ">APPRAISAL.</Link>
+              <li className="px-2">
+                <Link
+                  to="/appraisal"
+                  className="font-bold text-[14px] font-[Syne] "
+                >
+                  APPRAISAL.
+                </Link>
               </li>
-              <li className="tv:px-5 cin:px-5 px-3">
-                <Link to="/faq" className="font-semibold tv:text-[14px] cin:text-[14px] text-[12px] font-[Syne] ">FAQS.</Link>
+              <li className="px-2">
+                <Link to="/faq" className="font-bold text-[14px] font-[Syne] ">
+                  FAQS.
+                </Link>
               </li>
-              <li className="tv:px-5 cin:px-5 px-3">
-                <Link to="/contact" className="font-semibold tv:text-[14px] cin:text-[14px] text-[12px] font-[Syne] ">CONTACT.</Link>
+              <li className="px-2">
+                <Link
+                  to="/contact"
+                  className="font-bold text-[14px] font-[Syne] "
+                >
+                  CONTACT.
+                </Link>
               </li>
             </ul>
           </nav>
-          <div className="absolute w-[305px] top-0 left-[38%] z-10 right-0 mx-0 my-auto inline-block">
+          <div className="relative w-[305px] -top-2 z-10 right-0 mx-0 my-auto inline-block">
             <Link to="/">
               <img src="/logo.png" className="w-[250px]" alt="Logo Image" />
             </Link>
           </div>
-          <div className=" mt-5 mr-7 mb-5 ml-0 bg-[#0b2545] w-60 com:px-11 mcom:px-11 tv:px-11 cin:px-11 px-3 py-4 hover:bg-[#343434]">
-            <Link to="/contact" className="text-white font-bold font-[Syne] text-sm com:text-xs mcom:text-xs tab:text-xs sm:text-xs  tracking-widest">
+          <div className=" mt-5 mr-7 mb-5 ml-0 bg-[#0b2545] w-60 lg:px-11 x px-6 py-4 hover:bg-[#343434]">
+            <Link
+              to="/contact"
+              className="text-white font-bold font-[Syne] text-sm max-[1303px]:text-xs tracking-widest"
+            >
               GET A QUOTE
             </Link>
           </div>
           <div className="flex">
             <div>
-            <IoCallOutline className="text-6xl my-3 text-[#0b2545]" />
+              <IoCallOutline className="text-6xl my-3 text-[#0b2545]" />
             </div>
             <div className="py-4 px-1">
               <h1 className="font-bold font-[Syne] text-[14px] uppercase">
                 Free Consultation
               </h1>
-              <p className="text-[14px] font-[Syne]">
-                +91 98402 456 987
-              </p>
+              <p className="text-[14px] font-[Syne]">+91 98402 456 987</p>
             </div>
           </div>
         </div>
       </div>
-      <MobileNavbar className="xl:block"/>
+      <MobileNavbar className="xl:block" />
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
