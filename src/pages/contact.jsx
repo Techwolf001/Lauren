@@ -12,6 +12,9 @@ const Contact = () => {
             </h1>
           </div>
         </div>
+        <div className="w-full h-[300px] overflow-hidden block">
+
+        </div>
       </div>
     )
   }

@@ -22,7 +22,7 @@ export default function HomeCarousel() {
         loop={true}
         effect={'fade'}
         autoplay={{
-          delay: 2500,
+          delay: 4000,
           disableOnInteraction: false,
         }}
         onSlideChange={() => console.log('slide change')}
@@ -32,7 +32,7 @@ export default function HomeCarousel() {
         navigation={true}
         modules={[Pagination, Navigation, EffectFade, Autoplay]} className=" w-full h-auto ">
         <SwiperSlide>
-            <div className="block bg-[url('/Pre-Purchase-and-Quality-Verification.png')] relative bg-cover bg-no-repeat bg-center z-10 overflow-visible px-0 ">
+            <div className="block bg-[url('/banner1.jpeg')] relative bg-cover bg-no-repeat bg-center z-10 overflow-visible px-0 ">
                 <div className='container com:mx-40 tv:mx-40 cin:mx-40 mx-20 com:px-4 tv:px-4 cin:px-4 px-2'>
                     <div className='pt-[215px] pb-[180px] px-0 max-w-[580px]'>
                         <div>
@@ -50,7 +50,7 @@ export default function HomeCarousel() {
             </div>
         </SwiperSlide>
         <SwiperSlide>
-        <div className="block bg-[url('/Pre-Purchase-and-Quality-Verification.png')] relative bg-cover bg-no-repeat bg-center z-10 overflow-visible px-0 ">
+        <div className="block bg-[url('/banner2.jpeg')] relative bg-cover bg-no-repeat bg-center z-10 overflow-visible px-0 ">
                 <div className='container com:mx-40 tv:mx-40 cin:mx-40 mx-20 com:px-4 tv:px-4 cin:px-4 px-2'>
                     <div className='pt-[215px] pb-[180px] px-0 max-w-[580px]'>
                         <div>
