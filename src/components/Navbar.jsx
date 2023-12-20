@@ -10,7 +10,7 @@ const Navbar = () => {
     <div>
       <div className="hidden com:block tv:block cin:block">
         <div className=" max-xl:hidden">
-          <nav className="flex justify-between border px-[100px] py-[3px]">
+          <nav className="flex justify-between border px-[80px] py-[3px]">
             <div className="flex">
               <ul className="flex">
                 <li>
@@ -50,25 +50,25 @@ const Navbar = () => {
           </nav>
         </div>
         <div className="flex h-24 shadow-md  top-0">
-          <nav className="flex justify-between  px-[100px] py-[35px]">
+          <nav className="flex justify-between  px-[70px] py-[35px]">
             <ul className="flex">
-              <li className="px-5">
-                <Link to="/" className="font-bold text-[14px] font-[Syne] ">HOME.</Link>
+              <li className="tv:px-5 cin:px-5 px-3">
+                <Link to="/" className="font-semibold tv:text-[14px] cin:text-[14px] text-[12px] font-[Syne] ">HOME.</Link>
               </li>
-              <li className="px-5">
-                <Link to="/about" className="font-bold text-[14px] font-[Syne] ">ABOUT US.</Link>
+              <li className="tv:px-5 cin:px-5 px-3">
+                <Link to="/about" className="font-semibold tv:text-[14px] cin:text-[14px] text-[12px] font-[Syne] ">ABOUT US.</Link>
               </li>
-              <li className="px-5">
-                <Link to="/services" className="font-bold text-[14px] font-[Syne] ">OUR SERVICES.</Link>
+              <li className="tv:px-5 cin:px-5 px-3">
+                <Link to="/services" className="font-semibold tv:text-[14px] cin:text-[14px] text-[12px] font-[Syne] ">OUR SERVICES.</Link>
               </li>
-              <li className="px-5">
-                <Link to="/appraisal" className="font-bold text-[14px] font-[Syne] ">APPRAISAL.</Link>
+              <li className="tv:px-5 cin:px-5 px-3">
+                <Link to="/appraisal" className="font-semibold tv:text-[14px] cin:text-[14px] text-[12px] font-[Syne] ">APPRAISAL.</Link>
               </li>
-              <li className="px-5">
-                <Link to="/faq" className="font-bold text-[14px] font-[Syne] ">FAQS.</Link>
+              <li className="tv:px-5 cin:px-5 px-3">
+                <Link to="/faq" className="font-semibold tv:text-[14px] cin:text-[14px] text-[12px] font-[Syne] ">FAQS.</Link>
               </li>
-              <li className="px-5">
-                <Link to="/contact" className="font-bold text-[14px] font-[Syne] ">CONTACT.</Link>
+              <li className="tv:px-5 cin:px-5 px-3">
+                <Link to="/contact" className="font-semibold tv:text-[14px] cin:text-[14px] text-[12px] font-[Syne] ">CONTACT.</Link>
               </li>
             </ul>
           </nav>
