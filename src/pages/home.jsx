@@ -17,11 +17,11 @@ const Home = () => {
                 LAUREN ANGELO
               </h1>
               <p className="text-[20px] font-[500]">
-              Lauren Angelo is an independent Gemologist and<br/> 
-              Jewelry appraiser with a passion for gemstones and<br/> 
-              jewelry. With over a 15 years of experience in the industry,<br/> 
-              she is highly skilled in evaluating and appraising a wide <br/>
-              range of precious gems and jewellery pieces.
+                Lauren Angelo is an independent Gemologist and<br/> 
+                Jewelry appraiser with a passion for gemstones and<br/> 
+                jewelry. With over a 15 years of experience in the industry,<br/> 
+                she is highly skilled in evaluating and appraising a wide <br/>
+                range of precious gems and jewellery pieces.
               </p>
             </div>
         </div>

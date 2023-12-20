@@ -1,12 +1,27 @@
+import { useState } from "react"
 import { FaBars } from "react-icons/fa"
 import { Link } from "react-router-dom"
 
 const MobileNavbar = () => {
+
+  const [showSideBar, setShowSidebar]=useState(false)
+
+  const toggleSidebar = () => {
+    setShowSidebar(!showSideBar);
+  };
+
+
   return (
+
+
     <div className="com:hidden tv:hidden cin:hidden">
          <div className=" flex justify-around">
             <div className="mx-4 mt-8">
+              <button
+                onClick={toggleSidebar}
+              >
                 <FaBars className="text-3xl text-[#0b2545]" />
+              </button>
             </div>
             <div className="m-4 ">
                 <Link to="/">
