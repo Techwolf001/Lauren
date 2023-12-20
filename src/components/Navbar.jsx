@@ -15,21 +15,24 @@ const Navbar = () => {
               <ul className="flex">
                 <li>
                   <span className="flex m-4">
-                    <MdMailOutline className="m-[4px]"/>
-                    <a href="mailto:fawasrufai09@gmail.com " className="font-[Syne]">
-                        fawasrufai09@gmail.com
+                    <MdMailOutline className="m-[4px]" />
+                    <a
+                      href="mailto:fawasrufai09@gmail.com "
+                      className="font-[Syne]"
+                    >
+                      fawasrufai09@gmail.com
                     </a>
-                </span>
+                  </span>
                 </li>
                 <li>
                   <span className="flex m-4 ">
-                    <BsTelephone  className="m-[4px]"/>
+                    <BsTelephone className="m-[4px]" />
                     <a href="tel:+2347044637201 " className="font-[Syne]">
-                        +2347044637201
+                      +2347044637201
                     </a>
-                </span>
+                  </span>
                 </li>
-              </ul>      
+              </ul>
             </div>
             <div className="flex">
               <ul className="flex cursor-pointer">
@@ -37,13 +40,13 @@ const Navbar = () => {
                   <FaFacebookF className="m-2 opacity-50 hover:opacity-100" />
                 </li>
                 <li>
-                  <BsTwitterX className="m-2 opacity-50 hover:opacity-100"/>
+                  <BsTwitterX className="m-2 opacity-50 hover:opacity-100" />
                 </li>
                 <li>
-                  <FaLinkedin className="m-2 opacity-50 hover:opacity-100"/>
+                  <FaLinkedin className="m-2 opacity-50 hover:opacity-100" />
                 </li>
                 <li>
-                  <FaWhatsapp className="m-2 opacity-50 hover:opacity-100"/>
+                  <FaWhatsapp className="m-2 opacity-50 hover:opacity-100" />
                 </li>
               </ul>
             </div>
@@ -53,22 +56,46 @@ const Navbar = () => {
           <nav className="flex justify-between  px-[100px] py-[35px]">
             <ul className="flex">
               <li className="px-5">
-                <Link to="/" className="font-bold text-[14px] font-[Syne] ">HOME.</Link>
+                <Link to="/" className="font-bold text-[14px] font-[Syne] ">
+                  HOME.
+                </Link>
               </li>
               <li className="px-5">
-                <Link to="/about" className="font-bold text-[14px] font-[Syne] ">ABOUT US.</Link>
+                <Link
+                  to="/about"
+                  className="font-bold text-[14px] font-[Syne] "
+                >
+                  ABOUT US.
+                </Link>
               </li>
               <li className="px-5">
-                <Link to="/services" className="font-bold text-[14px] font-[Syne] ">OUR SERVICES.</Link>
+                <Link
+                  to="/services"
+                  className="font-bold text-[14px] font-[Syne] "
+                >
+                  OUR SERVICES.
+                </Link>
               </li>
               <li className="px-5">
-                <Link to="/appraisal" className="font-bold text-[14px] font-[Syne] ">APPRAISAL.</Link>
+                <Link
+                  to="/appraisal"
+                  className="font-bold text-[14px] font-[Syne] "
+                >
+                  APPRAISAL.
+                </Link>
               </li>
               <li className="px-5">
-                <Link to="/faq" className="font-bold text-[14px] font-[Syne] ">FAQS.</Link>
+                <Link to="/faq" className="font-bold text-[14px] font-[Syne] ">
+                  FAQS.
+                </Link>
               </li>
               <li className="px-5">
-                <Link to="/contact" className="font-bold text-[14px] font-[Syne] ">CONTACT.</Link>
+                <Link
+                  to="/contact"
+                  className="font-bold text-[14px] font-[Syne] "
+                >
+                  CONTACT.
+                </Link>
               </li>
             </ul>
           </nav>
@@ -78,28 +105,29 @@ const Navbar = () => {
             </Link>
           </div>
           <div className=" mt-5 mr-7 mb-5 ml-0 bg-[#0b2545] w-60 lg:px-11 x px-6 py-4 hover:bg-[#343434]">
-            <Link to="/contact" className="text-white font-bold font-[Syne] text-sm max-[1303px]:text-xs tracking-widest">
+            <Link
+              to="/contact"
+              className="text-white font-bold font-[Syne] text-sm max-[1303px]:text-xs tracking-widest"
+            >
               GET A QUOTE
             </Link>
           </div>
           <div className="flex">
             <div>
-            <IoCallOutline className="text-6xl my-3 text-[#0b2545]" />
+              <IoCallOutline className="text-6xl my-3 text-[#0b2545]" />
             </div>
             <div className="py-4 px-1">
               <h1 className="font-bold font-[Syne] text-[14px] uppercase">
                 Free Consultation
               </h1>
-              <p className="text-[14px] font-[Syne]">
-                +91 98402 456 987
-              </p>
+              <p className="text-[14px] font-[Syne]">+91 98402 456 987</p>
             </div>
           </div>
         </div>
       </div>
-      <MobileNavbar className="xl:block"/>
+      <MobileNavbar className="xl:block" />
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
