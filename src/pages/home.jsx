@@ -43,7 +43,7 @@ const Home = () => {
                           </div>
                         </div>
                         <div className="py-6 px-8">
-                          <h1 className="text-[#343434] text-lg transition-all ease-in-out font-[Syne] font-bold">
+                          <h1 className="text-white text-lg transition-all ease-in-out font-[Syne] font-bold">
                             Diamond Grading and Stone Identification
                           </h1>
                         </div>
@@ -59,7 +59,7 @@ const Home = () => {
                           </div>
                         </div>
                         <div className="py-6 px-8">
-                          <h1 className="text-[#343434] text-lg transition-all ease-in-out font-[Syne] font-bold">
+                          <h1 className="text-white text-lg transition-all ease-in-out font-[Syne] font-bold">
                             Litigation Support
                           </h1>
                         </div>
@@ -75,7 +75,7 @@ const Home = () => {
                           </div>
                         </div>
                         <div className="py-6 px-8">
-                          <h1 className="text-[#343434] text-lg transition-all ease-in-out font-[Syne] font-bold">
+                          <h1 className="text-white text-lg transition-all ease-in-out font-[Syne] font-bold">
                             Estate Appraisals
                           </h1>
                         </div>
@@ -105,15 +105,15 @@ const Home = () => {
       
     </div>
     <div>
-      <div className="container gap-x-0 flex flex-wrap -mx-4">
-        <div className="max-w-[1200px]">
+      <div className="container items-center gap-x-0 -mx-4 align-middle">
+        <div className="container">
           <p className="font-[700] leading-[3px] text-[#0b2545] text-center pb-16 uppercase ">
               15+ years of experience in Gemology & Jewelery Appraisal 
           </p>
           <h2 className="text-[80px] p-[15px 0 25px] text-center leading-[1.125] font-[600]">Get Expert Gems<br/> and Jewellery<br/> Appraisal</h2>
         </div>
-        <div className=" relative right-0 left-[29rem] my-9 mb-32 bg-[#0b2545] w-64 lg:px-11 x px-6 py-4 hover:bg-[#343434]">
-          <Link to="/contact" className="text-white uppercase font-bold font-[Syne] text-sm max-[1303px]:text-xs tracking-widest">
+        <div className="container relative justify-center items-center flex my-9 mb-32 bg-[#0b2545] w-64 lg:px-11 x px-6 py-4 hover:bg-[#343434] ">
+          <Link to="/contact" className="text-white uppercase  font-bold  justify-center font-[Syne] text-sm max-[1303px]:text-xs tracking-widest">
               book appraisal
           </Link>
         </div>
