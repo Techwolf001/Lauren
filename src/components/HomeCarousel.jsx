@@ -10,7 +10,7 @@ import "swiper/css/pagination";
 import "swiper/css/effect-fade";
 
 // import required modules
-// import { Autoplay, EffectFade, Navigation, Pagination } from "swiper/modules";
+import { Autoplay, EffectFade, Navigation, Pagination } from "swiper/modules";
 import { Link } from "react-router-dom";
 
 export default function HomeCarousel() {
@@ -25,13 +25,13 @@ export default function HomeCarousel() {
           delay: 4000,
           disableOnInteraction: false,
         }}
-        // onSlideChange={() => console.log("slide change")}
-        // pagination={{
-        //   clickable: true,
-        // }}
-        // navigation={true}
-        // modules={[Pagination, Navigation, EffectFade, Autoplay]}
-        // className=" w-full h-auto "
+        onSlideChange={() => console.log("slide change")}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={false}
+        modules={[Pagination, Navigation, EffectFade, Autoplay]}
+        className=" w-full h-auto "
       >
         <SwiperSlide>
           <div className="block bg-[url('/banner1.jpeg')] relative bg-cover bg-no-repeat bg-center z-10 overflow-visible px-0 ">
