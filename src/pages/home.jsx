@@ -36,7 +36,7 @@ const Home = () => {
                    <div className="w-[300px] h-[430px] min-h-[1px] px-4 hover:-translate-y-6 transition duration-1000  ease-in-out relative">
                     
                     <Link to="/services/diamond-grading">
-                      <div className="service_box">
+                      <div className="service_box_home">
                         <div className="relative max-w-full overflow-hidden rounded-br-3xl ">
                           <div>
                             <img src="/gem1.jpeg" alt="" className="w-full h-[300px] object-cover border-none align-middle"/>
@@ -52,7 +52,7 @@ const Home = () => {
                    </div>
                    <div className="w-[300px] h-[430px] min-h-[1px] px-4 hover:-translate-y-6 transition duration-1000 ease-in-out relative">
                     <Link to="/services/litigation-support">
-                      <div className="service_box">
+                      <div className="service_box_home">
                         <div className="relative max-w-full overflow-hidden rounded-br-3xl ">
                           <div>
                             <img src="/litigation-support.jpeg" alt="" className="w-full h-[300px] object-cover border-none align-middle"/>
@@ -68,7 +68,7 @@ const Home = () => {
                    </div>
                    <div className="w-[300px] h-[430px] min-h-[1px] px-4 hover:-translate-y-6 transition duration-1000 ease-in-out relative">
                     <Link to="/services/estate-appraisals">
-                      <div className="service_box">
+                      <div className="service_box_home">
                         <div className="relative max-w-full overflow-hidden rounded-br-3xl ">
                           <div>
                             <img src="/estate-appraisal.jpeg" alt="" className="w-full h-[300px] object-cover border-none align-middle"/>
@@ -84,7 +84,7 @@ const Home = () => {
                    </div>
                    <div className="w-[300px] h-[430px] min-h-[1px] px-4 hover:-translate-y-6 transition duration-1000 ease-in-out relative">
                     <Link to="/services/coloured-stone">
-                      <div className="service_box ">
+                      <div className="service_box_home ">
                         <div className="relative max-w-full overflow-hidden rounded-br-3xl ">
                           <div>
                             <img src="/colour-stone-indentification.jpeg" alt="" className="w-full h-[300px] object-cover border-none align-middle"/>
