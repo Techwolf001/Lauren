@@ -42,12 +42,8 @@ export default {
           "monospace",
         ],
   
-        "poppin-black": "fonts/Poppins/Poppins-Black.ttf",
-        "poppin-bold": "fonts/Poppins/Poppins-Bold.ttf",
-        "poppin-italic": "fonts/Poppins/Poppins-Italic.ttf",
-        "poppin-light": "fonts/Poppins/Poppins-Light.ttf",
-        "poppin-thin": "fonts/Poppins/Poppins-Thin.ttf",
-        Syne: "fonts/Syne/static/Syne-Regular.ttf",
+      
+        Syne: "fonts/Syne/Syne-VariableFont_wght.ttf",
       },
     extend: {},
   },

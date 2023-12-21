@@ -39,7 +39,7 @@ const Home = () => {
       <div className="px-0 pt-[145px] pb-[65px] overflow-hidden block">
         <div className="container px-4 md:ml-44 ml-24">
           <div>
-            <div className=" gap-x-0 flex flex-wrap -mx-4">
+            <div className="container gap-x-0 flex flex-wrap -mx-4">
               <div className="w-[300px] h-[430px] min-h-[1px] px-4 hover:-translate-y-6 transition duration-1000  ease-in-out relative">
                 <Link to="/services/diamond-grading">
                   <div className="service_box">
