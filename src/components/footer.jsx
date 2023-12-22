@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <div className="bg-[url('/footerbg.png')] h-[550px] pt-[115px] pb-[100px]">
+      <div className="bg-[url('/footerbg.png')] h-[550px] pt-[50px] mcom:pt-[115px] pb-[100px]">
         <div className="max-w-[1200px] w-full mx-auto px-4">
-          <div className="flex">
-            <div className="max-w-[33.3333%] px-[15px] basis-2/6">
+          <div className="block mcom:flex">
+            <div className="mcom:max-w-[33.3333%] px-[15px] mcom:basis-2/6">
               <div>
                 <h1 className="text-[40px] text-white font-[Syne] mb-6 font-bold before:top-5 before:h-[2px] before:w-5 before:-left-10 before:content- ">
                   About Us
@@ -32,7 +32,7 @@ const Footer = () => {
                 </Link>
               </div>
             </div>
-            <div className="list-container">
+            <div className="list-container hidden mcom:block">
               <div className="font-[Syne]">
                 <h1 className="text-[40px] text-white font-[Syne] mb-6 font-bold before:top-5 before:h-[2px] before:w-5 before:-left-10 before:content- ">
                   Services
@@ -77,7 +77,7 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div className="max-w-[33.3333%] px-[15px] basis-2/6">
+            <div className="max-w-[33.3333%] px-[15px] basis-2/6 ">
               <div>
                 <h1 className="text-[40px] text-white font-[Syne] mb-6 font-bold before:top-5 before:h-[2px] before:w-5 before:-left-10 before:content- ">
                   Find Us

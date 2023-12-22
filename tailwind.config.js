@@ -6,11 +6,11 @@ export default {
   ],
     theme: {
       screens: {
-        sm: { min: "100px", max: "480px" },
-        tab: { min: "481px", max: "768px" },
-        mcom: { min: "769px", max: "1200px" },
-        com: { min: "1200px", max: "1512px" },
-        tv: { min: "1513px", max: "2067px" },
+        sm: { min: "100px" },
+        tab: { min: "481px"},
+        mcom: { min: "769px" },
+        com: { min: "1200px" },
+        tv: { min: "1513px" },
         cin: { min: "2068px" },
       },
       fontFamily: {
