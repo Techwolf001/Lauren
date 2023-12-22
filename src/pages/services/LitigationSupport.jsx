@@ -7,14 +7,14 @@ const LitigationSupport = () => {
           <div className="text left-0 right-0 top-[50px] font-[Syne] text-center translate-x-0 stroke-white opacity-10 -z-10 text-[300px] absolute font-bold fill-transparent stroke-1">
             Services
           </div>
-          <div className="w-full px-4 mx-auto max-w-[1200px] container">
+          <div className="w-full px-4 mx-auto max-w-[1200px]  ">
             <h1 className="text-white text-[120px] text-center mt-0  mb-2 font-semibold font-[Syne] leading-[0.833]">
               Litigation Support
             </h1>
           </div>
         </div>
-        <div className="pt-[145px] pb-32 md:px-40 overflow-hidden block">
-          <div className="container px-4 mx-auto">
+        <div className="pt-[145px] pb-32 mcom:px-40 overflow-hidden block">
+          <div className="  px-4 mx-auto">
             <div className="w-full basis-full shrink-0 grow-0">
               <div className="pl-10 mr-12">
                 <div className="mb-8 pb-5 border-b-2 relative">
