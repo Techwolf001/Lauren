@@ -85,7 +85,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="px-2">
-                <Link to="/faq" className="font-bold text-[14px] font-[Syne] ">
+                <Link to="/faqs" className="font-bold text-[14px] font-[Syne] ">
                   FAQS.
                 </Link>
               </li>
