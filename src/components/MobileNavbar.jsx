@@ -30,7 +30,7 @@ const MobileNavbar = () => {
         </div>
         <div
           className={`${
-            showSideBar ? "hidden" : "flex"
+            showSideBar ? "flex" : "hidden"
           } absolute top-0 right-0 bottom-0 z-[100]`}
         >
           <button
