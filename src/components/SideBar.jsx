@@ -1,6 +1,7 @@
 import {} from "react";
+import { BsTwitterX } from "react-icons/bs";
+import { FaFacebookF, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { IoCallOutline } from "react-icons/io5";
-import { AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 const SideBar = () => {
@@ -8,12 +9,9 @@ const SideBar = () => {
 
   return (
     <>
-      <div>
+      <div className="bg-black/90">
         <div className="bg-white shadow-md h-[100vh] w-[280px] py-10 px-0">
-          <button className="relative bottom-6 left-5 border bg-red-500 text-white font-extrabold text-sm p-1">
-            <AiOutlineClose />
-          </button>
-          <div className="relative m-auto align-middle flex justify-center bottom-8">
+          <div className="relative m-auto align-middle flex justify-center bottom-8 mt-6">
             <Link to="/">
               <img src="/logo.png" className="w-[150px]" alt="Logo Image" />
             </Link>
@@ -85,6 +83,28 @@ const SideBar = () => {
             <h2 className="capitalize text-[16px] font-[600] font-Syne text-center mb-0.5">
               Follow us on:
             </h2>
+            <ul className="flex items-center justify-center">
+              <li className="border shadow-md p-1 rounded-full m-1">
+                <Link className="">
+                  <FaFacebookF className="text-blue-700" />
+                </Link>
+              </li>
+              <li className="border shadow-md p-1 rounded-full m-1">
+                <Link className="">
+                  <BsTwitterX className="text-black" />
+                </Link>
+              </li>
+              <li className="border shadow-md p-1 rounded-full m-1">
+                <Link className="">
+                  <FaLinkedin className="text-blue-600" />
+                </Link>
+              </li>
+              <li className="border shadow-md p-1 rounded-full m-1">
+                <Link className="">
+                  <FaWhatsapp className="text-black" />
+                </Link>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
