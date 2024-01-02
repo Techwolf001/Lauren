@@ -42,7 +42,7 @@ export default function HomeCarousel() {
                     Expert Gemology and Jewelry Appraisal
                   </h1>
                 </div>
-                <div className=" mt-5 sm:-mt-20 mr-7 mb-5 ml-0 bg-[#0b2545] w-60 sm:w-36 lg:px-11 px-6 py-4 hover:bg-[#343434]">
+                <div className="mt-5 sm:-mt-20 mr-7 mb-5 ml-0 bg-[#0b2545] w-60 sm:w-48 lg:px-11 px-6 py-4 hover:bg-[#343434]">
                   <Link
                     to="/about"
                     className="text-white font-bold font-[Syne] text-sm max-[1303px]:text-xs tracking-widest uppercase"
@@ -53,13 +53,13 @@ export default function HomeCarousel() {
                 <div className="grid grid-cols-1 absolute right-12 sm:top-[15rem] top-[26.5rem]">
                   <button
                     onClick={""}
-                    className="z-10 text-white border-[3px] w-16 sm:w-11 hover:bg-[#0b2545] duration-500 hover:border-[#0b2545] border-[#e6e6e6] p-5 sm:p-3"
+                    className="z-10 text-white border-[3px] com:w-16 sm:w-11 hover:bg-[#0b2545] duration-500 hover:border-[#0b2545] border-[#e6e6e6] com:p-5 sm:p-3"
                   >
                     <FaArrowLeft />
                   </button>
                   <button
                     onClick={""}
-                    className="z-10 text-white border-[3px] w-16 sm:w-11 hover:bg-[#0b2545] duration-500 hover:border-[#0b2545] border-[#e6e6e6] p-5 sm:p-3"
+                    className="z-10 text-white border-[3px] com:w-16 sm:w-11 hover:bg-[#0b2545] duration-500 hover:border-[#0b2545] border-[#e6e6e6] com:p-5 sm:p-3"
                   >
                     <FaArrowRight />
                   </button>

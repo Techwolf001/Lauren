@@ -11,7 +11,7 @@ const MobileNavbar = () => {
     <div className="com:hidden tv:hidden cin:hidden">
       <div className=" flex justify-around">
         <div className="mx-4 mt-8">
-          <button onClick={() => setShowSidebar(!showSideBar)}>
+          <button onClick={() => setShowSidebar(true)}>
             <FaBars className="text-3xl text-[#0b2545]" />
           </button>
         </div>
@@ -34,7 +34,7 @@ const MobileNavbar = () => {
           } absolute top-0 right-0 bottom-0 z-[100]`}
         >
           <button
-            onClick={() => setShowSidebar(!showSideBar)}
+            onClick={() => setShowSidebar(false)}
             className="absolute top-5 mb-4 left-5 border bg-red-500 text-white font-extrabold text-sm p-1"
           >
             <AiOutlineClose />

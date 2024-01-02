@@ -12,6 +12,7 @@ export default {
         com: { min: "1200px" },
         tv: { min: "1513px" },
         cin: { min: "2068px" },
+        cus1:{min:"992px"},
       },
       fontFamily: {
         sans: [

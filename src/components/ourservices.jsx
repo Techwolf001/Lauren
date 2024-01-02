@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 
 const OurServices = () => {
   return (
-    <div className="px-0 pt-[145px] pb-[65px] overflow-hidden block">
-      <div className=" px-4 com:ml-44 tv:ml-44 cin:ml-44 ml-24">
+    <div className="px-0 pt-[145px] pb-[65px] mx-auto com:mx-24 tv:mx-44 overflow-hidden block">
+      <div className="mcom:container mcom:px-4 px-2 mx-auto ">
         <div>
-          <div className="container gap-x-0 flex flex-wrap mx-4">
-            <div className="w-[300px] h-[430px] min-h-[1px] px-4 hover:-translate-y-6 transition duration-1000  ease-in-out relative">
+          <div className="gap-x-0 flex flex-wrap">
+            <div className="mcom:basis-1/3 shrink-0 grow-0 max-w-[33.33333%] h-[430px] min-h-[1px] px-4 hover:-translate-y-6 relative">
               <Link to="/services/diamond-grading">
                 <div className="service_box">
                   <div className="relative max-w-full overflow-hidden rounded-br-3xl ">
@@ -26,7 +26,7 @@ const OurServices = () => {
                 </div>
               </Link>
             </div>
-            <div className="w-[300px] h-[430px] min-h-[1px] px-4 hover:-translate-y-6 transition duration-1000 ease-in-out relative">
+            <div className="mcom:basis-1/3 shrink-0 grow-0 max-w-[33.33333%] h-[430px] min-h-[1px] px-4 hover:-translate-y-6 transition duration-1000 ease-in-out relative">
               <Link to="/services/litigation-support">
                 <div className="service_box">
                   <div className="relative max-w-full overflow-hidden rounded-br-3xl ">
@@ -46,7 +46,7 @@ const OurServices = () => {
                 </div>
               </Link>
             </div>
-            <div className="w-[300px] h-[430px] min-h-[1px] px-4 hover:-translate-y-6 transition duration-1000 ease-in-out relative">
+            <div className="mcom:basis-1/3 shrink-0 grow-0 max-w-[33.33333%] h-[430px] min-h-[1px] px-4 hover:-translate-y-6 transition duration-1000 ease-in-out relative">
               <Link to="/services/estate-appraisals">
                 <div className="service_box">
                   <div className="relative max-w-full overflow-hidden rounded-br-3xl ">
@@ -66,7 +66,7 @@ const OurServices = () => {
                 </div>
               </Link>
             </div>
-            <div className="w-[300px] h-[430px] min-h-[1px] px-4 hover:-translate-y-6 transition duration-1000 ease-in-out relative">
+            <div className="mcom:basis-1/3 shrink-0 grow-0 max-w-[33.33333%] h-[430px] min-h-[1px] px-4 hover:-translate-y-6 transition duration-1000 ease-in-out relative">
               <Link to="/services/coloured-stone">
                 <div className="service_box">
                   <div className="relative max-w-full overflow-hidden rounded-br-3xl ">
@@ -86,7 +86,7 @@ const OurServices = () => {
                 </div>
               </Link>
             </div>
-            <div className="w-[300px] h-[430px] min-h-[1px] px-4 hover:-translate-y-6 transition duration-1000 ease-in-out relative">
+            <div className="mcom:basis-1/3 shrink-0 grow-0 max-w-[33.33333%] h-[430px] min-h-[1px] px-4 hover:-translate-y-6 transition duration-1000 ease-in-out relative">
               <Link to="/services/jewelry-purchase">
                 <div className="service_box">
                   <div className="relative max-w-full overflow-hidden rounded-br-3xl ">
@@ -106,7 +106,7 @@ const OurServices = () => {
                 </div>
               </Link>
             </div>
-            <div className="w-[300px] h-[430px] min-h-[1px] px-4 hover:-translate-y-6 transition duration-1000 ease-in-out relative">
+            <div className="mcom:basis-1/3 shrink-0 grow-0 max-w-[33.33333%] h-[430px] min-h-[1px] px-4 hover:-translate-y-6 transition duration-1000 ease-in-out relative">
               <Link to="/services/report-verification">
                 <div className="service_box">
                   <div className="relative max-w-full overflow-hidden rounded-br-3xl ">
@@ -126,7 +126,7 @@ const OurServices = () => {
                 </div>
               </Link>
             </div>
-            <div className="w-[300px] h-[430px] min-h-[1px] px-4 hover:-translate-y-6 transition duration-1000 ease-in-out relative">
+            <div className="mcom:basis-1/3 shrink-0 grow-0 max-w-[33.33333%] h-[430px] min-h-[1px] px-4 hover:-translate-y-6 transition duration-1000 ease-in-out relative">
               <Link to="/services/jewelry-insurance">
                 <div className="service_box">
                   <div className="relative max-w-full overflow-hidden rounded-br-3xl ">
@@ -146,7 +146,7 @@ const OurServices = () => {
                 </div>
               </Link>
             </div>
-            <div className="w-[300px] h-[430px] min-h-[1px] px-4 hover:-translate-y-6 transition duration-1000 ease-in-out relative">
+            <div className="mcom:basis-1/3 shrink-0 grow-0 max-w-[33.33333%] h-[430px] min-h-[1px] px-4 hover:-translate-y-6 transition duration-1000 ease-in-out relative">
               <Link to="/services/missing-jewelry">
                 <div className="service_box">
                   <div className="relative max-w-full overflow-hidden rounded-br-3xl ">
@@ -166,7 +166,7 @@ const OurServices = () => {
                 </div>
               </Link>
             </div>
-            <div className="w-[300px] h-[430px] min-h-[1px] px-4 hover:-translate-y-6 transition duration-1000 ease-in-out relative">
+            <div className="mcom:basis-1/3 shrink-0 grow-0 max-w-[33.33333%] h-[430px] min-h-[1px] px-4 hover:-translate-y-6 transition duration-1000 ease-in-out relative">
               <Link to="/services/pre-purchase">
                 <div className="service_box">
                   <div className="relative max-w-full overflow-hidden rounded-br-3xl ">
