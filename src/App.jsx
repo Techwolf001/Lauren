@@ -1,31 +1,25 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import './App.css'
-import { Suspense, lazy, useEffect, useState } from 'react';
-const DefaultLayout = lazy(() => import('./layout/DefaultLayout'));
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.css";
+import { Suspense, useEffect, useState } from "react";
+import DefaultLayout from "./layout/DefaultLayout";
 
-import routes from './routes';
-import { Toaster } from 'react-hot-toast';
-import Loader from './common/loader';
+import routes from "./routes";
+import Loader from "./common/loader";
 
 function App() {
-  const[loading, setLoading]=useState(true)
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-     setLoading(false);
+    setLoading(false);
   }, []);
 
   return loading ? (
     <Loader />
-  ) :(
+  ) : (
     <>
-    <Toaster
-        position="top-right"
-        reverseOrder={false}
-        containerClassName="overflow-auto"
-      />
       <BrowserRouter>
-      <Routes>
-        <Route element={<DefaultLayout />}>
+        <Routes>
+          <Route element={<DefaultLayout />}>
             {routes.map((routes, index) => {
               const { path, component: Component } = routes;
               return (
@@ -44,7 +38,7 @@ function App() {
         </Routes>
       </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
