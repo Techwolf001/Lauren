@@ -41,40 +41,61 @@ const Footer = () => {
                 </div>
                 <div>
                   <ul className="grid grid-cols-2">
-                    <li className="List w-full text-[#cdcdcd] leading-7 font-[Syne] text-base px-2 py-1 cursor-pointer duration-500">
-                      Color Stone Identification
-                    </li>
-                    <li className="List w-full text-[#cdcdcd] leading-7 font-[Syne] text-base px-2 py-1 cursor-pointer duration-500">
-                      Diamond grading and stone <br />
-                      identification
-                    </li>
-                    <li className="List w-full text-[#cdcdcd] leading-7 font-[Syne] text-base px-2 py-1 cursor-pointer duration-500">
-                      Estate Appraisal
-                    </li>
-                    <li className="List w-full text-[#cdcdcd] leading-7 font-[Syne] text-base px-2 py-1 cursor-pointer duration-500">
-                      Insurance Evauation/Appraisal
-                    </li>
-                    <li className="List w-full text-[#cdcdcd] leading-7 font-[Syne] text-base px-2 py-1 cursor-pointer duration-500">
-                      Jewelry Insurance Appraisal
-                    </li>
-                    <li className="List w-full text-[#cdcdcd] leading-7 font-[Syne] text-base px-2 py-1 cursor-pointer duration-500">
-                      Litigation Support
-                    </li>
-                    <li className="List w-full text-[#cdcdcd] leading-7 font-[Syne] text-base px-2 py-1 cursor-pointer duration-500">
-                      Pre-purchase and quality <br />
-                      verification
-                    </li>
-                    <li className="List w-full text-[#cdcdcd] leading-7 font-[Syne] text-base px-2 py-1 cursor-pointer duration-500">
-                      Missing Jewelry Appraisals
-                      <br /> (Post Loss)
-                    </li>
-                    <li className="List w-full text-[#cdcdcd] leading-7 font-[Syne] text-base px-2 py-1 cursor-pointer duration-500">
-                      Pre/Post Jewelry Purchase
-                      <br /> Consultation
-                    </li>
-                    <li className="List w-full text-[#cdcdcd] leading-7 font-[Syne] text-base px-2 py-1 cursor-pointer duration-500">
-                      Report Verification
-                    </li>
+                    <Link to="/services/coloured-stone">
+                      <li className="List w-full text-[#cdcdcd] leading-7 font-[Syne] text-base px-2 py-1 cursor-pointer duration-500">
+                        Coloured Stone Identification
+                      </li>
+                    </Link>
+
+                    <Link to="/services/diamond-grading">
+                      <li className="List w-full text-[#cdcdcd] leading-7 font-[Syne] text-base px-2 py-1 cursor-pointer duration-500">
+                        Diamond grading and stone <br />
+                        identification
+                      </li>
+                    </Link>
+                    <Link to="/services/estate-appraisal">
+                      <li className="List w-full text-[#cdcdcd] leading-7 font-[Syne] text-base px-2 py-1 cursor-pointer duration-500">
+                        Estate Appraisal
+                      </li>
+                    </Link>
+                    <Link to="">
+                      <li className="List w-full text-[#cdcdcd] leading-7 font-[Syne] text-base px-2 py-1 cursor-pointer duration-500">
+                        Insurance Evauation/Appraisal
+                      </li>
+                    </Link>
+                    <Link to="/services/jewelry-insurance">
+                      <li className="List w-full text-[#cdcdcd] leading-7 font-[Syne] text-base px-2 py-1 cursor-pointer duration-500">
+                        Jewelry Insurance Appraisal
+                      </li>
+                    </Link>
+                    <Link to="/services/litigation-support">
+                      <li className="List w-full text-[#cdcdcd] leading-7 font-[Syne] text-base px-2 py-1 cursor-pointer duration-500">
+                        Litigation Support
+                      </li>
+                    </Link>
+                    <Link to="/services/pre-purchase">
+                      <li className="List w-full text-[#cdcdcd] leading-7 font-[Syne] text-base px-2 py-1 cursor-pointer duration-500">
+                        Pre-purchase and quality <br />
+                        verification
+                      </li>
+                    </Link>
+                    <Link to="/services/jewelry-appraisals">
+                      <li className="List w-full text-[#cdcdcd] leading-7 font-[Syne] text-base px-2 py-1 cursor-pointer duration-500">
+                        Missing Jewelry Appraisals
+                        <br /> (Post Loss)
+                      </li>
+                    </Link>
+                    <Link to="/services/jewelry-purchase">
+                      <li className="List w-full text-[#cdcdcd] leading-7 font-[Syne] text-base px-2 py-1 cursor-pointer duration-500">
+                        Pre/Post Jewelry Purchase
+                        <br /> Consultation
+                      </li>
+                    </Link>
+                    <Link to="/services/report-verification">
+                      <li className="List w-full text-[#cdcdcd] leading-7 font-[Syne] text-base px-2 py-1 cursor-pointer duration-500">
+                        Report Verification
+                      </li>
+                    </Link>
                   </ul>
                 </div>
               </div>
@@ -89,7 +110,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="bg-[#222222] w-full h-auto px-4 py-7 cus1:grid cus1:grid-cols-3 flex flex-col justify-center items-center">
+        <div className="bg-[#222222] w-full h-auto px-6 py-7 cus1:grid cus1:grid-cols-3 flex flex-col justify-center items-center">
           <ul className="flex my-5">
             <li className="border-2 border-[#393939] p-5 h-16 w-16 hover:bg-[#c6ac82] duration-300 hover:border-[#c6ac82] mr-3">
               <Link to={""}>
@@ -116,6 +137,18 @@ const Footer = () => {
             <Link to="/">
               <img src="/logo2.png" className="w-[250px]" alt="Logo Image" />
             </Link>
+          </div>
+          <div>
+            <p className="text-white">
+              <span>Copyright By</span>
+              <span>
+                {" "}
+                © {new Date().getFullYear()}
+                <span className="font-bold">
+                  <Link to="/"> Lauren Angelo Gems</Link>
+                </span>
+              </span>
+            </p>
           </div>
         </div>
       </div>

@@ -17,7 +17,7 @@ function App() {
     <Loader />
   ) : (
     <>
-      <BrowserRouter basename="/Lauren">
+      <BrowserRouter>
         <Routes>
           <Route element={<DefaultLayout />}>
             {routes.map((routes, index) => {

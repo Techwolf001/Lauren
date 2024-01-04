@@ -5,7 +5,7 @@ import { PlusIcon } from "@heroicons/react/20/solid";
 export default function FaqBody() {
   return (
     <div className="w-full md:px-20 pt-[145px] pb-[120px]">
-      <div className="mx-auto w-full container  rounded-2xl bg-white p-2">
+      <div className="mx-auto w-full  rounded-2xl bg-white p-2">
         {/* <Disclosure>
 
           {({ open }) => (
@@ -387,7 +387,10 @@ export default function FaqBody() {
               >
                 <Disclosure.Panel className="px-4 pb-2 pt-4 text-[17px] text-pink-900">
                   We highly encourage making an appointment prior to coming in:
-                  info@laurenangelogems.com however we do accept walk-ins.
+                  <a href="mailto:fawasrufai09@gmail.com">
+                    fawasrufai09@gmail.com
+                  </a>{" "}
+                  however we do accept walk-ins.
                 </Disclosure.Panel>
               </Transition>
             </>

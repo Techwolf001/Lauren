@@ -7,5 +7,4 @@ export default defineConfig({
   server: {
     port: 5000,
   },
-  base: "https://techwolf001.github.io/Lauren/",
 });

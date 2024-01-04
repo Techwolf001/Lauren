@@ -56,7 +56,7 @@ const ServicesNames = [
     Name: "Missing Jewelry Appraisals (Post Loss)",
   },
   {
-    id: 7,
+    id: 9,
     ImageSrc: "/Pre-Purchase-and-Quality-Verification.png",
     ImageAlt: "Pre Purchase and Quality Verification",
     LinkTo: "/services/pre-purchase",
