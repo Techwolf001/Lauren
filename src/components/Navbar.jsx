@@ -56,14 +56,14 @@ const Navbar = () => {
           <nav className="flex justify-between px-[10px] pl-6 relative top-4 py-[15px]">
             <ul className="flex">
               <li className="px-2">
-                <Link to="/" className="font-bold text-[14px] font-[Syne] ">
+                <Link to="/" className="font-bold text-[12px] font-[Syne] ">
                   HOME.
                 </Link>
               </li>
               <li className="px-2">
                 <Link
                   to="/about"
-                  className="font-bold text-[14px] font-[Syne] "
+                  className="font-bold text-[12px] font-[Syne] "
                 >
                   ABOUT US.
                 </Link>
@@ -71,7 +71,7 @@ const Navbar = () => {
               <li className="px-2">
                 <Link
                   to="/services"
-                  className="font-bold text-[14px] font-[Syne] "
+                  className="font-bold text-[12px] font-[Syne] "
                 >
                   OUR SERVICES.
                 </Link>
@@ -79,20 +79,20 @@ const Navbar = () => {
               <li className="px-2">
                 <Link
                   to="/appraisal"
-                  className="font-bold text-[14px] font-[Syne] "
+                  className="font-bold text-[12px] font-[Syne] "
                 >
                   APPRAISAL.
                 </Link>
               </li>
               <li className="px-2">
-                <Link to="/faqs" className="font-bold text-[14px] font-[Syne] ">
+                <Link to="/faqs" className="font-bold text-[12px] font-[Syne] ">
                   FAQS.
                 </Link>
               </li>
               <li className="px-2">
                 <Link
                   to="/contact"
-                  className="font-bold text-[14px] font-[Syne] "
+                  className="font-bold text-[12px] font-[Syne] "
                 >
                   CONTACT.
                 </Link>

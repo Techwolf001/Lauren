@@ -9,10 +9,10 @@ const HomeSection = () => {
           <p className="mb-0 font-bold text-[#0b2545] pb-3 uppercase mt-0 text-center">
             15+ years of experience in Gemology & Jewelery Appraisal
           </p>
-          <h2 className="com:text-[100px] sm:text-[30px] text-[#343434]  pb-[25px] px-0 text-center leading-[1.125] font-[600]">
+          <h2 className="com:text-[100px] sm:text-[40px] tab:text-[60px] text-[#343434]  pb-[25px] px-0 text-center leading-[1.125] font-[600]">
             Get Expert Gems and Jewellery Appraisal
           </h2>
-          <div className=" relative flex right-0 text-center   my-9 mb-32 bg-[#0b2545] w-72  px-6 py-4">
+          <div className=" grid-flow-col justify-center items-center right-0 text-center my-9 mb-32 bg-[#0b2545] w-72 mx-auto px-6 py-4">
             <ul className="m-0 p-0 ">
               <li className="ButtonList">
                 <Link

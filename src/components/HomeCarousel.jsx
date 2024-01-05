@@ -38,7 +38,7 @@ export default function HomeCarousel() {
             <div className="com:mx-40 tv:mx-40 cin:mx-40 mx-4 w-full com:px-4 tv:px-4 cin:px-4 px-2">
               <div className="pt-[215px] pb-[180px] sm:pb-[100px] px-0 sm:mr-40">
                 <div>
-                  <h1 className="com:text-[80px] tv:text-[80px] cin:text-[80px] text-[60px] sm:text-[40px] relative sm:-top-24 w-sm:text-[40px] com:w-[50%] w-[40%] sm:w-[120%] text-white com:py-5 tv:py-5  px-0 font-semibold opacity-100 translate-y-0 transition-all ease-in duration-[1500ms] delay-1000 leading-[1.25]">
+                  <h1 className="com:text-[80px] tv:text-[80px] cin:text-[80px] text-[60px] sm:text-[40px] relative sm:-top-24 w-sm:text-[40px] cus1:w-[40%] w-[40%] sm:w-[120%] text-white com:py-5 tv:py-5  px-0 font-semibold opacity-100 translate-y-0 transition-all ease-in duration-[1500ms] delay-1000 leading-[1.25]">
                     Expert Gemology and Jewelry Appraisal
                   </h1>
                 </div>
@@ -73,7 +73,7 @@ export default function HomeCarousel() {
             <div className="com:mx-40 tv:mx-40 cin:mx-40 mx-4 w-full com:px-4 tv:px-4 cin:px-4 px-2">
               <div className="pt-[215px] pb-[180px] sm:pb-[100px] px-0 sm:mr-40">
                 <div>
-                  <h1 className="com:text-[80px] tv:text-[80px] cin:text-[80px] text-[60px] sm:text-[40px] relative sm:-top-24 w-sm:text-[40px] com:w-[50%] w-[40%] sm:w-[120%] text-white com:py-5 tv:py-5  px-0 font-semibold opacity-100 translate-y-0 transition-all ease-in duration-[1500ms] delay-1000 leading-[1.25]">
+                  <h1 className="com:text-[80px] tv:text-[80px] text-[60px] sm:text-[40px] relative sm:-top-24 w-sm:text-[40px] cus1:w-[40%] w-[40%] sm:w-[120%] text-white com:py-5 tv:py-5  px-0 font-semibold opacity-100 translate-y-0 transition-all ease-in-out duration-[1500ms] delay-1000 leading-[1.25]">
                     Professional Gems and Jewelry Appraisal
                   </h1>
                 </div>

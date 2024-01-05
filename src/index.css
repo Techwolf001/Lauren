@@ -80,6 +80,16 @@
   -o-transition: 0.3s all ease-in-out;
   transition: 0.3s all ease-in-out;
   height: 400px;
+  width: 300px;
+}
+
+@media screen and (max-width: 991px) {
+  .service_box_home {
+    max-width: 270px;
+    margin: 0 auto;
+    /* margin-bottom: 0px;
+    margin-bottom: 40px; */
+  }
 }
 
 .ButtonList Link {

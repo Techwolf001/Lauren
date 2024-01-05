@@ -69,14 +69,14 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="pt-20 pb-16 px-0 block overflow-hidden ">
-        <div className="flex flex-wrap flex-row">
-          <div className="mx-auto gap-2 flex flex-wrap">
+      <div className="mcom:pt-36 pt-16 pb-16 px-0 block overflow-hidden">
+        <div className="flex flex-wrap flex-row mx-auto">
+          <div className="mx-auto gap-2 justify-center items-center flex flex-wrap">
             {ServicesNamesHome.map((ServicesNamesHome) => {
               const { ImageAlt, ImageSrc, LinkTo, Name } = ServicesNamesHome;
               return (
-                <div className="gap-x-0 flex flex-wrap -mx-4 -ml-11">
-                  <div className="w-[300px] h-[430px] px-4 hover:-translate-y-6 transition duration-1000  ease-in-out relative sm:mx-auto ">
+                <div className="flex flex-wrap flex-row cus1:-mx-4">
+                  <div className="flex grow-0 shrink-0 mcom:basis-1/2 cus1:basis-2/6 relative mx-4 min-h-[1px] w-full px-4 hover:-translate-y-6 transition duration-1000 ease-in-out ">
                     <Link to={LinkTo}>
                       <div className="service_box_home">
                         <div className="relative max-w-full overflow-hidden rounded-br-3xl ">
@@ -88,8 +88,8 @@ const Home = () => {
                             />
                           </div>
                         </div>
-                        <div className="py-6 px-8 bg-[#343434]">
-                          <h1 className="text-white text-lg transition-all ease-in-out font-[Syne] font-bold">
+                        <div className="py-6 px-8">
+                          <h1 className="text-[#fff] text-lg transition-all ease-in-out font-[Syne] font-bold">
                             {Name}
                           </h1>
                         </div>
