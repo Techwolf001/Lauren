@@ -7,7 +7,7 @@ const PrePurchase = () => {
           Services
         </div>
         <div className="w-full px-4 mx-auto max-w-[1200px]  ">
-          <h1 className="text-white mcom:text-[120px] text-[90px] text-center mt-0  mb-2 font-semibold font-[Syne] leading-[0.833]">
+          <h1 className="text-white mcom:text-[120px] text-[75px] text-center mt-0  mb-2 font-semibold font-[Syne] leading-[0.833]">
             Pre-Purchase and Quality Verification
           </h1>
         </div>

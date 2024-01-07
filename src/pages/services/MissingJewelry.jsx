@@ -18,7 +18,7 @@ const MissingJewelry = () => {
             <div className="pl-10 mr-12">
               <div className="mb-8 pb-5 border-b-2 relative">
                 <h2 className="text-5xl font-semibold">
-                  Pre-Purchase And Quality Verification
+                  Missing Jewelry Appraisal (Post Loss)
                 </h2>
               </div>
               <div>

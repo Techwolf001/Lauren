@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import SideBar from "./SideBar";
+// import SideBar from "./SideBar";
 import { AiOutlineClose } from "react-icons/ai";
+import SideBar from "./SideBar";
 
 const MobileNavbar = () => {
   const [showSideBar, setShowSidebar] = useState(false);

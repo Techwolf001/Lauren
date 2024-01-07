@@ -1,9 +1,9 @@
 import { Dialog, Transition } from "@headlessui/react";
-import { Fragment, useState } from "react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
+import { Fragment } from "react";
+import { Link } from "react-router-dom";
 
-const MobileMenu = () => {
-  const [open, setOpen] = useState(false);
+const Side = () => {
   return (
     <div>
       <Transition.Root show={open} as={Fragment}>
@@ -45,31 +45,35 @@ const MobileMenu = () => {
 
                 {/* Links */}
 
-                <div className="space-y-6 border-t border-gray-200 px-4 py-6">
-                  <h1>Fawas</h1>
-                  <h1>Fawas</h1>
-                  <h1>Fawas</h1>
-                  <h1>Fawas</h1>
-                  <h1>Fawas</h1>
-                  <h1>Fawas</h1>
+                <div className="space-y-6 border-t border-gray-100 px-4 py-6 bg-slate-300">
+                  {navigation.pages.map((page) => (
+                    <div key={page.name} className="flow-root">
+                      <a
+                        href={page.href}
+                        className="-m-2 block p-2.5 font-medium text-gray-900"
+                      >
+                        {page.name}
+                      </a>
+                    </div>
+                  ))}
                 </div>
 
-                <div className="space-y-6 border-t border-gray-200 px-4 py-6">
-                  <div className="flow-root">
-                    <a
-                      href="#"
-                      className="-m-2 block p-2 font-medium text-gray-900"
+                <div className="space-y-6 border-t bg-slate-400 border-gray-200 px-4 py-6">
+                  <div className="flow-root ">
+                    <Link
+                      to="/login"
+                      className="-m-2 block p-2 font-medium  text-gray-900"
                     >
                       Sign in
-                    </a>
+                    </Link>
                   </div>
                   <div className="flow-root">
-                    <a
-                      href="#"
+                    <Link
+                      to="/login"
                       className="-m-2 block p-2 font-medium text-gray-900"
                     >
                       Create account
-                    </a>
+                    </Link>
                   </div>
                 </div>
 
@@ -95,4 +99,4 @@ const MobileMenu = () => {
   );
 };
 
-export default MobileMenu;
+export default Side;
