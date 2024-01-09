@@ -2,11 +2,13 @@ const Profile = () => {
   return (
     <div className="pt-[145px] pb-[50px] px-0 overflow-hidden block">
       <div className="px-4 mx-auto ">
-        <div className="pl-20 ">
-          <div className="flex flex-wrap mx-24 mcom:mx-16 tab:mx-8 sm:mx-4">
+        <div className="mcom:pl-20 ">
+          <div className="flex flex-wrap mx-24 mcom:mx-16 tab:mx-8 sm:mx-0">
             <div className="flex flex-col -mx-4">
               <div>
-                <h1 className="font-semibold text-6xl">LAUREN ANGELO</h1>
+                <h1 className="font-semibold text-6xl text-center">
+                  LAUREN ANGELO
+                </h1>
               </div>
               <div className="font-medium text-xl pt-8 pb-6 px-0">
                 GIA Certified Gemologist and Jewellery Appraisal Professional
@@ -14,14 +16,14 @@ const Profile = () => {
               </div>
             </div>
             <div className="mcom:flex block">
-              <div className="basis-2/6 shrink-0 grow-0 max-w-[33.3333%] w-full relative min-h-[1] px-4">
+              <div className="mcombasis-2/6 shrink-0 grow-0 mcom:max-w-[33.3333%] w-full relative min-h-[1] px-4">
                 <img
                   src="/womanImg.png"
                   alt="Woman image"
                   className="max-w-full h-auto align-middle border-none rounded-[10px]"
                 />
               </div>
-              <div className="basis-2/3 grow-0 shrink-0 max-w-[66.66667%] relative w-full px-4">
+              <div className="mcom:basis-2/3 grow-0 shrink-0 mcom:max-w-[66.66667%] relative w-full mcom:px-4">
                 <div className="">
                   <div className="m-auto p-4">
                     <div>
