@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import HomeCarousel from "../components/HomeCarousel";
 import HomeSection from "../components/HomeSection";
 import Testimonial from "../components/Testimonial";
+import HomeSectionTwo from "../components/HomeSectionTwo";
 
 const ServicesNamesHome = [
   {
@@ -105,6 +106,7 @@ const Home = () => {
 
       <HomeSection />
       <Testimonial />
+      <HomeSectionTwo />
     </div>
   );
 };

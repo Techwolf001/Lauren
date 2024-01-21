@@ -10,7 +10,7 @@ const Navbar = () => {
     <div>
       <div className="hidden com:block tv:block cin:block">
         <div className=" max-xl:hidden">
-          <nav className="flex justify-between border px-[13px] bg-[#f9f9f9]">
+          <nav className="flex justify-between border px-[50px] bg-[#f9f9f9]">
             <div className="flex">
               <ul className="flex">
                 <li>

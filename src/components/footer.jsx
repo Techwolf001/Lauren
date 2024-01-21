@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
       <div className="flex flex-col">
-        <div className="bg-[url('/footerbg.png')] h-[550px] pt-[50px] relative mcom:pt-[115px] pb-[100px] ">
+        <div className="bg-[url('/footerbg.png')] h-[auto] pt-[50px] relative mcom:pt-[115px] pb-[100px] ">
           <div className="max-w-[1200px] w-full mx-auto px-4">
             <div className="block com:flex">
               <div className="com:max-w-[33.3333%] px-[15px] com:basis-2/6">
@@ -99,13 +99,15 @@ const Footer = () => {
                   </ul>
                 </div>
               </div>
-              <div className="max-w-[33.3333%] px-[15px] basis-2/6 ">
+              <div className="com:max-w-[33.3333%] px-[15px] com:basis-2/6 ">
                 <div className="">
                   <h1 className="text-[40px] text-white font-[Syne] mb-6 font-bold before:top-5 before:h-[2px] before:w-5 before:-left-10 sm:w-[190%] before:content- ">
                     Find Us
                   </h1>
                 </div>
-                <div>map</div>
+                <div>
+                  <img src="/map.webp" alt="map" />
+                </div>
               </div>
             </div>
           </div>

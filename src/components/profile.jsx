@@ -6,7 +6,7 @@ const Profile = () => {
           <div className="flex flex-wrap mx-24 mcom:mx-16 tab:mx-8 sm:mx-0">
             <div className="flex flex-col -mx-4">
               <div>
-                <h1 className="font-semibold text-6xl text-center">
+                <h1 className="font-semibold tab:text-4xl sm:text-3xl cus1:text-6xl">
                   LAUREN ANGELO
                 </h1>
               </div>

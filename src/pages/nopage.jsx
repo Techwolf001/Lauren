@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Nopage = () => {
   return (
     <div>
@@ -10,6 +12,21 @@ const Nopage = () => {
           <h1 className="text-white mcom:text-[120px] text-[90px] text-center mt-0  mb-2 font-semibold font-[Syne] leading-[0.833]">
             404 NOT FOUND
           </h1>
+        </div>
+      </div>
+      <div className="pt-[145px] pb-32 mcom:px-40  overflow-hidden block">
+        <div className="px-4 flex items-center justify-center  mx-auto">
+          <div className="mb-8 pb-5  relative">
+            <h2 className="text-5xl font-semibold uppercase">PAGE NOT FOUND</h2>
+          </div>
+          <div className=" mt-5 mr-7 relative right-12 mb-5 ml-0 bg-[#0b2545] w-48 lg:px-11 px-6 py-4 hover:bg-[#343434]">
+            <Link
+              to="/"
+              className="text-white text-center items-center justify-center flex font-bold font-[Syne] text-sm max-[1303px]:text-xs tracking-widest"
+            >
+              Go Home
+            </Link>
+          </div>
         </div>
       </div>
     </div>
